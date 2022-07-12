@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 import { ApplicationInsights } from '@microsoft/applicationinsights-web';
-import createHistory from "history/createBrowserHistory";
+import { createBrowserHistory as createHistory } from 'history';
 import { IReactAISettings, reactAI } from '../src';
 
 const IKEY: string = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx";
